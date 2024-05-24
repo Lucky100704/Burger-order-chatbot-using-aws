@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger Menu</title>
+    <script type="text/javascript">
+        (function(d, m){
+            var kommunicateSettings = 
+                {"appId":"2af80288b05b307ccc3d56e0886b4f1fc","popupWidget":true,"automaticChatOpenOnNavigation":true};
+            var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
+            s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
+            var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
+            window.kommunicate = m; m._globals = kommunicateSettings;
+        })(document, window.kommunicate || {});
+    /* NOTE : Use web server to view HTML files as real-time update will not work if you directly open the HTML file in the browser. */
+    </script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #ff4500;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .menu-section {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #ff4500;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 20px;
+            color: #666;
+        }
+
+        .franchise-name {
+            font-weight: bold;
+            color: #333;
+        }
+
+        .burger-type {
+            margin-left: 20px;
+            color: #555;
+        }
+
+        /* Hover effect for better interactivity */
+        li:hover {
+            cursor: pointer;
+            color: #ff4500;
+        }
+
+        /* Image styling */
+        .burger-image {
+            max-width: 100px;
+            border-radius: 8px;
+            margin-right: 15px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <h1>Burger Buddy</h1>
+
+    <div class="menu-section">
+        <h2>Best Burger</h2>
+        <ul>
+            <li>
+                <img src="L:\CLOUD & SERVERLESS COMPUTING\BURGER ORDER BOT\img\12.jpg" alt="Bacon" class="burger-image">
+                <span class="franchise-name">Bacon</span>
+            </li>
+            <li>
+                <img src="L:\CLOUD & SERVERLESS COMPUTING\BURGER ORDER BOT\img\cheese.jpeg" alt="Cheese" class="burger-image">
+                <span class="franchise-name">Cheese</span>
+            </li>
+            <li>
+                <img src="L:\CLOUD & SERVERLESS COMPUTING\BURGER ORDER BOT\img\plain.png" alt="Plain" class="burger-image">
+                <span class="franchise-name">Plain</span>
+            </li>
+        </ul>
+    </div>
+
+    <div class="menu-section">
+        <h2>Burger Palace</h2>
+        <ul>
+            <li>
+                <img src="L:\CLOUD & SERVERLESS COMPUTING\BURGER ORDER BOT\img\Fried.jpg" alt="Fried Egg" class="burger-image">
+                <span class="franchise-name">Fried Egg</span>
+            </li>
+            <li>
+                <img src="L:\CLOUD & SERVERLESS COMPUTING\BURGER ORDER BOT\img\pickle.jpg" alt="Fried Green Tomatoes" class="burger-image">
+                <span class="franchise-name">Fried Green Tomatoes</span>
+            </li>
+            <li>
+                <img src="L:\CLOUD & SERVERLESS COMPUTING\BURGER ORDER BOT\img\fried1.jpg" alt="Fried Pickle" class="burger-image">
+                <span class="franchise-name">Fried Pickle</span>
+            </li>
+        </ul>
+    </div>
+
+    <div class="menu-section">
+        <h2>Flaming Burger</h2>
+        <ul>
+            <li>
+                <img src="L:\CLOUD & SERVERLESS COMPUTING\BURGER ORDER BOT\img\chilli.jpg" alt="Chili" class="burger-image">
+                <span class="franchise-name">Chili</span>
+            </li>
+            <li>
+                <img src="L:\CLOUD & SERVERLESS COMPUTING\BURGER ORDER BOT\img\jalapeno.jpg" alt="Jalapeno" class="burger-image">
+                <span class="franchise-name">Jalapeno</span>
+            </li>
+            <li>
+                <img src="L:\CLOUD & SERVERLESS COMPUTING\BURGER ORDER BOT\img\pepper.png" alt="Peppercorn" class="burger-image">
+                <span class="franchise-name">Peppercorn</span>
+            </li>
+        </ul>
+    </div>
+
+    <div class="menu-section">
+        <h2>Burger Sizes (# patties)</h2>
+        <ul>
+            <li>
+                <img src="L:\CLOUD & SERVERLESS COMPUTING\BURGER ORDER BOT\img\single.jpeg" alt="Single" class="burger-image">
+                <span class="franchise-name">Single</span>
+            </li>
+            <li>
+                <img src="L:\CLOUD & SERVERLESS COMPUTING\BURGER ORDER BOT\img\double.jpeg" alt="Double" class="burger-image">
+                <span class="franchise-name">Double</span>
+            </li>
+            <li>
+                <img src="L:\CLOUD & SERVERLESS COMPUTING\BURGER ORDER BOT\img\triple.webp" alt="Triple" class="burger-image">
+                <span class="franchise-name">Triple</span>
+            </li>
+        </ul>
+    </div>
+
+</body>
+
+</html>
