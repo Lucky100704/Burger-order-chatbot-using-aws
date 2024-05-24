@@ -1,1 +1,1 @@
-# Pizza-order-chatbot-using-aws
+Refer to the documentation for the procedure
